@@ -1,11 +1,22 @@
-package main.java.rockets;
+package main.java.rocket;
 
-public abstract class Rockets {
+public class Rocket {
+    private static String status;
+    private static int rocketHeight;
+    private static boolean reusable;
+
+
     private String company;
-    private String status;
+    private String rocketCondition;
 
-    public Rockets(String company, String status) {
+    public Rocket (String company, String rocketCondition) {
         this.company = company;
-        this.status = status;
+        this.rocketCondition = rocketCondition;
+    }
+
+    // getters
+    public boolean getReusable() {
+        return reusable;
     }
 }
+
