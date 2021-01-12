@@ -8,10 +8,5 @@ public class Falcon9 extends Rocket{
     public Falcon9 (String company, String rocketCondition) {
         super(company, rocketCondition);
     }
-
-    @Override
-    public boolean getReusable() {
-        return reusable;
-    }
 }
 
