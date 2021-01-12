@@ -8,10 +8,5 @@ public class NewShepard extends Rocket {
     public NewShepard (String company, String rocketCondition) {
         super(company, rocketCondition);
     }
-
-    @Override
-    public boolean getReusable() {
-        return reusable;
-    }
 }
 

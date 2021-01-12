@@ -9,7 +9,13 @@ public class Main {
         Starship SN_9 = new Starship ("SpaceX", "testing");
         Apollo Apollo_13 = new Apollo ("Nasa", "retired");
 
+        System.out.println(SN_9.getCompany());
+        System.out.println(SN_9.getStatus());
         System.out.println(SN_9.getReusable());
+
         System.out.println(Apollo_13.getReusable());
+        System.out.println(Apollo_13.getCompany());
     }
 }
+
+//, AS Watson 14:40, KWIIK 15:20, ZOHO 15:40,Proxellence 16:00,deloitte16:40
